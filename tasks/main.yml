@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-emacs
+- name: Deploy emacs configuration repo
+  git:
+    repo: git@github.com:binaryplease/dotemacs.git
+    dest: /home/{{user}}/binaryplease
+
