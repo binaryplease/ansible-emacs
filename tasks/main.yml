@@ -3,5 +3,5 @@
 - name: Deploy emacs configuration repo
   git:
     repo: git@github.com:binaryplease/dotemacs.git
-    dest: /home/{{user}}/binaryplease
+    dest: /home/{{user}}/binaryplease/.emacs.d
 
